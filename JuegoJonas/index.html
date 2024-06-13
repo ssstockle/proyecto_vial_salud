@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VialSalud - SOPLÁ: Test de alcoholemia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <a href="../Index.html" class="enlace">
+            <h1 class="logo">Vial<span class="color-acento">Salud</span></h1>
+        </a>
+
+        <ul>
+            <li><a href="../Index.html">Inicio</a></li>
+            <li><a href="../integrantes.html">Integrantes</a></li>
+            <li><a href="../avances.html">Avances</a></li>
+            <li><a href="../juegos.html">Juegos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="game-container" id="pantalla-inicial">
+    <h1 style="margin-bottom: 15px; margin-top: 0">DRIVE: Juego de manejo</h1>
+    <h2 style="margin-bottom: 10px">
+        Controles: Usa las flechas del teclado para moverte y esquivar los obstáculos.
+    </h2>
+    <div class="container">
+        <div id="game-container">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</div>
+
+<footer>
+    <p>Derechos reservados - Sitio desarrollado para uso educativo - Diseño y desarrollo Web - UADE - 2024</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
